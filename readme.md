@@ -1,8 +1,8 @@
 # dynamic table row using javascript     
 
-We create a table and a form with 2 input field for name and email. User will give value to name and email field. when user submit button we will get the value from name field and email field and insert those name and email value to table by dynamic table.          
+We create a table and 2 input field for name and email. User will give value to name and email input field. when user submit button we will get the value from name field and email field and insert those name and email value to table.    
 
-I documented those dynamic table as comment   
+I documented task as comment in side code    
 
 ~~~js
 var button = document.getElementById('button');
@@ -38,5 +38,4 @@ button.addEventListener('click', function () {
 ~~~
 
 
-We first select button. Then added click event listener using `addEventListener` method.     
-
+We first select button. Then added click event listener using `addEventListener` method. It will help you in logic building 
